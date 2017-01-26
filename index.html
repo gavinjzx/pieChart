@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>canvas饼图演示</title>
+    <script src="js/pieChart.js"></script>
+</head>
+<body>
+<canvas id="canvasPieChart"></canvas>
+<script>
+    var chart1 = new pieChart({
+        data: [5, 5, 15],
+        text: ["GB", "食堂", "咖啡"],
+        color: ["#228DF7", "#ED7D31", "#A5A5A5"],
+        canvasID: 'canvasPieChart',
+        padding: 10,
+        textFormat: "{a}:{c}%",
+        width: 300,
+        height: 330,
+        lineHeight:1.2
+    });
+//    var canvas = document.getElementById("canvasPieChart");
+//    if (!(window.devicePixelRatio === 1)) {
+//        canvas.style.transform = "scale(" + 1/window.devicePixelRatio + ")";
+//        canvas.style.transformOrigin = "0 0";
+//    }
+</script>
+</body>
+</html>
