@@ -5,13 +5,13 @@
 但是这个项目本身只有二百多KB，加一个二百多KB的组件，上司直接不允许。于是自己决定写一个。
 
 在线演示：
-http://at4321.com/case/web/picChart/
+http://atigege.com/case/web/picChart/
 
 
 结果项目上线后，发现在手机上，图片发虚（如华为和三星的高端机为三倍屏，一般的安卓手机为二倍屏）。
 
 项目演示：
-http://at4321.com/case/web/bgi/it2017/
+http://atigege.com/case/web/bgi/it2017/
 因为时间紧迫，只剩一天时间，还有页面没有切，CSS3动画待添加，数据待绑定（json数据绑定。）
 项目中直接使用的2倍图，这样在高清视网膜屏上，还是会显示有点点模糊。
 
