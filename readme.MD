@@ -5,7 +5,7 @@
 但是这个项目本身只有二百多KB，加一个二百多KB的组件，上司直接不允许。于是自己决定写一个。
 
 在线演示：
-http://atigege.com/case/web/picChart/
+http://atigege.com/case/web/pieChart/
 
 
 结果项目上线后，发现在手机上，图片发虚（如华为和三星的高端机为三倍屏，一般的安卓手机为二倍屏）。
